@@ -14,7 +14,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-    <base href="/prueba_camera/" />
+    <base href="/" />
 
     <meta charset="UTF-8" />
     <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
@@ -24,20 +24,20 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="apple-mobile-web-app-title" content="show_usuarios" />
-    <link rel="apple-touch-icon" href="/prueba_camera/icons/logoMant192.png" />
+    <link rel="apple-touch-icon" href="icons/logoMant192.png" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/ico" href="/prueba_camera/favicon.ico" />
+    <link rel="icon" type="image/ico" href="favicon.ico" />
 
     <title>GestorWebManteniento</title>
-    <link rel="manifest" href="/prueba_camera/manifest.json" />
+    <link rel="manifest" href="manifest.json" />
 
     <script>
       // The value below is injected by flutter build, do not touch.
-      const serviceWorkerVersion = "61250744";
+      const serviceWorkerVersion = "1402140051";
     </script>
     <!-- This script adds the flutter initialization JS code -->
-    <script src="/prueba_camera/flutter.js" defer=""></script>
+    <script src="flutter.js" defer=""></script>
 
     <meta
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
@@ -117,26 +117,26 @@
     <picture id="splash">
       <source
         srcset="
-          /prueba_camera/splash/img/light-1x.png 1x,
-          /prueba_camera/splash/img/light-2x.png 2x,
-          /prueba_camera/splash/img/light-3x.png 3x,
-          /prueba_camera/splash/img/light-4x.png 4x
+          splash/img/light-1x.png 1x,
+          splash/img/light-2x.png 2x,
+          splash/img/light-3x.png 3x,
+          splash/img/light-4x.png 4x
         "
         media="(prefers-color-scheme: light)"
       />
       <source
         srcset="
-          /prueba_camera/splash/img/dark-1x.png 1x,
-          /prueba_camera/splash/img/dark-2x.png 2x,
-          /prueba_camera/splash/img/dark-3x.png 3x,
-          /prueba_camera/splash/img/dark-4x.png 4x
+          splash/img/dark-1x.png 1x,
+          splash/img/dark-2x.png 2x,
+          splash/img/dark-3x.png 3x,
+          splash/img/dark-4x.png 4x
         "
         media="(prefers-color-scheme: dark)"
       />
       <img
         class="center"
         aria-hidden="true"
-        src="/prueba_camera/splash/img/light-1x.png"
+        src="splash/img/light-1x.png"
         alt=""
       />
     </picture>
@@ -145,8 +145,7 @@
       window.addEventListener("load", function (ev) {
         // Download main.dart.js
         _flutter.loader.loadEntrypoint({
-          entrypointUrl:
-            "/prueba_camera/main.dart.js?v=" + serviceWorkerVersion,
+          entrypointUrl: "main.dart.js?v=" + serviceWorkerVersion,
           serviceWorker: {
             serviceWorkerVersion: serviceWorkerVersion,
           },
